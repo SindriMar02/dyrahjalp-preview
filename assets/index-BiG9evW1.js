@@ -20,7 +20,7 @@
   <section class="hero">
     <div class="hero-inner">
       <div class="hero-copy">
-        <h1><span class="hero-line"><span class="hero-line-inner">Dýrin bíða</span></span><span class="hero-line"><span class="hero-line-inner">á kortinu.</span></span></h1>
+        <h1><span class="hero-line"><span class="hero-line-inner">Þau bíða</span></span><span class="hero-line"><span class="hero-line-inner">eftir heimili.</span></span></h1>
         <p class="lead"><strong><span data-count>${t.length}</span> dýr</strong> eru í heimilisleit hjá Dýrahjálp núna. Hvert og eitt er á fósturheimili eða hjá eiganda sem þarf að finna því nýtt heimili. Veldu stað á kortinu eða skoðaðu þau öll.</p>
         <div class="hero-actions">
           <a class="button button-primary" href="#/dyrin">Skoða dýrin</a>
