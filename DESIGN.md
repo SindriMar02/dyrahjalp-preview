@@ -31,7 +31,7 @@ Prototype scope (studio rule): 12 real animals, the main flows, nothing imported
   "6 ára hundur, 600 Akureyri", "6 ára kisa, 356 Snæfellsbæ". This is the material the idea comes from.
 
 ## 2. The one idea (Gate 2)
-**The animals sit on the map.** Their logo is Iceland. Every animal waiting for a home has a postcode. So the
+**The animals sit on the map.** (Hero line: "Þau bíða eftir heimili.", not a slogan about the map.) Their logo is Iceland. Every animal waiting for a home has a postcode. So the
 hero is their own map with the waiting animals placed on it by town, each as a small round photo: Reykjavík
 cluster, Akureyri, Húsavík, Snæfellsbær. The headline beside it says what the map shows ("27 dýr bíða eftir
 heimili") and the count is live from the data. Pressing a town or a region filters the list below; the map stays
