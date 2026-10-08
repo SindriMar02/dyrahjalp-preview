@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="is">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="theme-color" content="#FBFBFA" />
+    <meta
+      name="description"
+      content="Dýrahjálp Íslands er félag sjálfboðaliða sem finnur dýrum í neyð fósturheimili og framtíðarheimili. Dýr í heimilisleit, týnd og fundin dýr, fósturheimili og sjálfboðastarf."
+    />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="preload" as="font" type="font/woff2" href="/media/ValleySans-Variable.woff2" crossorigin />
+    <title>Dýr í heimilisleit | Dýrahjálp Íslands</title>
+  </head>
+  <body>
+    <a class="skip" href="#main">Fara í efni</a>
+    <div class="mobile-awning" aria-hidden="true"></div>
+    <header class="header">
+      <a class="logo" href="#/" aria-label="Dýrahjálp Íslands, forsíða">
+        <img src="/media/logo-original.svg" width="52" height="36" alt="" />
+        <span>Dýrahjálp Íslands</span>
+      </a>
+      <nav class="desktop-nav" aria-label="Aðalvalmynd">
+        <details class="drop">
+          <summary>Dýrin <span aria-hidden="true">⌄</span></summary>
+          <div class="dropdown">
+            <a href="#/dyrin">Dýr í heimilisleit</a>
+            <a href="#/dyrin?tegund=hundur">Hundar</a>
+            <a href="#/dyrin?tegund=köttur">Kisur</a>
+            <a href="#/dyrin?tegund=kanína">Kanínur</a>
+            <a href="#/dyrin?tegund=annað">Önnur dýr</a>
+            <a href="#/tynd-fundin">Týnd / fundin dýr</a>
+          </div>
+        </details>
+        <details class="drop">
+          <summary>Hjálpa <span aria-hidden="true">⌄</span></summary>
+          <div class="dropdown">
+            <a href="#/hjalpa#fostur">Fósturheimili</a>
+            <a href="#/hjalpa#sjalfbodalidi">Sjálfboðastarf</a>
+            <a href="#/hjalpa#medlimur">Gerast meðlimur</a>
+            <a href="#/hjalpa#styrkja">Styrkja starfsemina</a>
+            <a href="#/vefverslun">Vefverslun</a>
+          </div>
+        </details>
+        <a href="#/um">Um Dýrahjálp</a>
+      </nav>
+      <div class="header-actions">
+        <a class="button button-primary header-cta" href="#/hjalpa#styrkja">Styrkja</a>
+        <button class="menu-toggle" aria-label="Opna valmynd" aria-controls="menu">
+          <span></span><span></span>
+        </button>
+      </div>
+    </header>
+    <main id="main" tabindex="-1"></main>
+    <footer class="footer">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="/media/logo-original.svg" width="104" height="72" alt="" />
+          <p>Dýrahjálp Íslands er félag sjálfboðaliða sem leitast við að sjá dýrum sem þarfnast heimilis fyrir skjóli og stofna til þess dýraathvarf.</p>
+        </div>
+        <div>
+          <h2>Samband</h2>
+          <a href="mailto:dyrahjalp@dyrahjalp.is">dyrahjalp@dyrahjalp.is</a>
+          <p>Dýrahjálp Íslands<br />kt. 620508-1010<br />Vífilsgötu 19, 105 Reykjavík</p>
+          <a href="https://www.facebook.com/D%C3%BDrahj%C3%A1lp-%C3%8Dslands-74570940915/" target="_blank" rel="noopener">Facebook ↗︎</a>
+        </div>
+        <div>
+          <h2>Dýrin</h2>
+          <a href="#/dyrin">Dýr í heimilisleit</a>
+          <a href="#/tynd-fundin">Týnd / fundin dýr</a>
+          <a href="#/tynd-fundin#skra">Skrá týnt eða fundið dýr</a>
+        </div>
+        <div>
+          <h2>Hjálpa</h2>
+          <a href="#/hjalpa#fostur">Fósturheimili</a>
+          <a href="#/hjalpa#sjalfbodalidi">Sjálfboðastarf</a>
+          <a href="#/hjalpa#medlimur">Gerast meðlimur</a>
+          <a href="#/vefverslun">Vefverslun</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>Dýrahjálp Íslands · Hönnunartillaga</span>
+        <a href="https://sndrstudio.is" target="_blank" rel="noopener">Designed by SNDR Studio ↗︎</a>
+      </div>
+    </footer>
+    <dialog id="menu" class="menu-dialog" aria-labelledby="menu-title">
+      <div class="dialog-top">
+        <h2 id="menu-title">Valmynd</h2>
+        <button data-close="menu" class="close-button" aria-label="Loka valmynd">×</button>
+      </div>
+      <nav aria-label="Valmynd">
+        <a href="#/dyrin">Dýr í heimilisleit</a>
+        <a href="#/tynd-fundin">Týnd / fundin dýr</a>
+        <a href="#/hjalpa">Vilt þú hjálpa?</a>
+        <a href="#/hjalpa#medlimur">Gerast meðlimur</a>
+        <a href="#/vefverslun">Vefverslun</a>
+        <a href="#/um">Um Dýrahjálp</a>
+      </nav>
+      <a class="menu-mail" href="mailto:dyrahjalp@dyrahjalp.is">dyrahjalp@dyrahjalp.is</a>
+    </dialog>
+    <script type="module" src="/src/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,466 @@
+{
+  "color": {
+    "primary": {
+      "$value": "#741B0D",
+      "$type": "color",
+      "$description": "deep red band",
+      "$extensions": {
+        "anydesign": {
+          "source": "design.md frontmatter",
+          "confidence": "high"
+        }
+      }
+    },
+    "primary-bright": {
+      "$value": "#E9442E",
+      "$type": "color",
+      "$description": "CTA red",
+      "$extensions": {
+        "anydesign": {
+          "source": "design.md frontmatter",
+          "confidence": "medium"
+        }
+      }
+    },
+    "surface": {
+      "$value": "#FAFAFA",
+      "$type": "color",
+      "$description": "paper",
+      "$extensions": {
+        "anydesign": {
+          "source": "design.md frontmatter",
+          "confidence": "high"
+        }
+      }
+    },
+    "surface-sand": {
+      "$value": "#F2EDE7",
+      "$type": "color",
+      "$description": "warm sand",
+      "$extensions": {
+        "anydesign": {
+          "source": "design.md frontmatter",
+          "confidence": "high"
+        }
+      }
+    },
+    "text-primary": {
+      "$value": "#141414",
+      "$type": "color",
+      "$description": "ink",
+      "$extensions": {
+        "anydesign": {
+          "source": "design.md frontmatter",
+          "confidence": "high"
+        }
+      }
+    },
+    "text-body": {
+      "$value": "#463930",
+      "$type": "color",
+      "$description": "warm brown",
+      "$extensions": {
+        "anydesign": {
+          "source": "design.md frontmatter",
+          "confidence": "high"
+        }
+      }
+    },
+    "text-on-primary": {
+      "$value": "#F5F0E6",
+      "$type": "color",
+      "$description": "bone",
+      "$extensions": {
+        "anydesign": {
+          "source": "design.md frontmatter",
+          "confidence": "high"
+        }
+      }
+    },
+    "border": {
+      "$value": "#141414",
+      "$type": "color",
+      "$description": "2 px outline",
+      "$extensions": {
+        "anydesign": {
+          "source": "design.md frontmatter",
+          "confidence": "high"
+        }
+      }
+    }
+  },
+  "typography": {
+    "font-family": {
+      "display": {
+        "$value": "PressuraExtended, Helvetica, Arial, sans-serif",
+        "$type": "fontFamily",
+        "$description": "page h1, uppercase, bone on red",
+        "$extensions": {
+          "anydesign": {
+            "source": "design.md frontmatter"
+          }
+        }
+      }
+    },
+    "font-size": {
+      "display": {
+        "$value": "32px",
+        "$type": "dimension",
+        "$description": "page h1, uppercase, bone on red",
+        "$extensions": {
+          "anydesign": {
+            "source": "design.md frontmatter"
+          }
+        }
+      },
+      "heading": {
+        "$value": "24px",
+        "$type": "dimension",
+        "$description": "h2",
+        "$extensions": {
+          "anydesign": {
+            "source": "design.md frontmatter"
+          }
+        }
+      },
+      "card-title": {
+        "$value": "24px",
+        "$type": "dimension",
+        "$description": "animal name",
+        "$extensions": {
+          "anydesign": {
+            "source": "design.md frontmatter"
+          }
+        }
+      },
+      "card-meta": {
+        "$value": "18px",
+        "$type": "dimension",
+        "$description": "\"Internat · Fyns Internat\"",
+        "$extensions": {
+          "anydesign": {
+            "source": "design.md frontmatter"
+          }
+        }
+      },
+      "body": {
+        "$value": "16px",
+        "$type": "dimension",
+        "$description": "paragraphs (brown)",
+        "$extensions": {
+          "anydesign": {
+            "source": "design.md frontmatter"
+          }
+        }
+      },
+      "control": {
+        "$value": "16px",
+        "$type": "dimension",
+        "$description": "FILTRER, uppercase",
+        "$extensions": {
+          "anydesign": {
+            "source": "design.md frontmatter"
+          }
+        }
+      }
+    },
+    "font-weight": {
+      "display": {
+        "$value": 700,
+        "$type": "fontWeight",
+        "$description": "page h1, uppercase, bone on red",
+        "$extensions": {
+          "anydesign": {
+            "source": "design.md frontmatter"
+          }
+        }
+      },
+      "heading": {
+        "$value": 700,
+        "$type": "fontWeight",
+        "$description": "h2",
+        "$extensions": {
+          "anydesign": {
+            "source": "design.md frontmatter"
+          }
+        }
+      },
+      "card-title": {
+        "$value": 700,
+        "$type": "fontWeight",
+        "$description": "animal name",
+        "$extensions": {
+          "anydesign": {
+            "source": "design.md frontmatter"
+          }
+        }
+      },
+      "card-meta": {
+        "$value": 700,
+        "$type": "fontWeight",
+        "$description": "\"Internat · Fyns Internat\"",
+        "$extensions": {
+          "anydesign": {
+            "source": "design.md frontmatter"
+          }
+        }
+      },
+      "body": {
+        "$value": 400,
+        "$type": "fontWeight",
+        "$description": "paragraphs (brown)",
+        "$extensions": {
+          "anydesign": {
+            "source": "design.md frontmatter"
+          }
+        }
+      },
+      "control": {
+        "$value": 500,
+        "$type": "fontWeight",
+        "$description": "FILTRER, uppercase",
+        "$extensions": {
+          "anydesign": {
+            "source": "design.md frontmatter"
+          }
+        }
+      }
+    },
+    "line-height": {
+      "display": {
+        "$value": 1.1,
+        "$type": "number",
+        "$description": "page h1, uppercase, bone on red",
+        "$extensions": {
+          "anydesign": {
+            "source": "design.md frontmatter"
+          }
+        }
+      },
+      "heading": {
+        "$value": 1.1,
+        "$type": "number",
+        "$description": "h2",
+        "$extensions": {
+          "anydesign": {
+            "source": "design.md frontmatter"
+          }
+        }
+      },
+      "card-title": {
+        "$value": 1.1,
+        "$type": "number",
+        "$description": "animal name",
+        "$extensions": {
+          "anydesign": {
+            "source": "design.md frontmatter"
+          }
+        }
+      },
+      "card-meta": {
+        "$value": 1.35,
+        "$type": "number",
+        "$description": "\"Internat · Fyns Internat\"",
+        "$extensions": {
+          "anydesign": {
+            "source": "design.md frontmatter"
+          }
+        }
+      },
+      "body": {
+        "$value": 1.5,
+        "$type": "number",
+        "$description": "paragraphs (brown)",
+        "$extensions": {
+          "anydesign": {
+            "source": "design.md frontmatter"
+          }
+        }
+      },
+      "control": {
+        "$value": 1,
+        "$type": "number",
+        "$description": "FILTRER, uppercase",
+        "$extensions": {
+          "anydesign": {
+            "source": "design.md frontmatter"
+          }
+        }
+      }
+    },
+    "letter-spacing": {
+      "display": {
+        "$value": "-0.5px",
+        "$type": "dimension",
+        "$description": "page h1, uppercase, bone on red",
+        "$extensions": {
+          "anydesign": {
+            "source": "design.md frontmatter"
+          }
+        }
+      },
+      "heading": {
+        "$value": "-0.5px",
+        "$type": "dimension",
+        "$description": "h2",
+        "$extensions": {
+          "anydesign": {
+            "source": "design.md frontmatter"
+          }
+        }
+      },
+      "card-title": {
+        "$value": "0.3px",
+        "$type": "dimension",
+        "$description": "animal name",
+        "$extensions": {
+          "anydesign": {
+            "source": "design.md frontmatter"
+          }
+        }
+      },
+      "card-meta": {
+        "$value": "0.3px",
+        "$type": "dimension",
+        "$description": "\"Internat · Fyns Internat\"",
+        "$extensions": {
+          "anydesign": {
+            "source": "design.md frontmatter"
+          }
+        }
+      },
+      "body": {
+        "$value": "0.3px",
+        "$type": "dimension",
+        "$description": "paragraphs (brown)",
+        "$extensions": {
+          "anydesign": {
+            "source": "design.md frontmatter"
+          }
+        }
+      }
+    }
+  },
+  "spacing": {
+    "base": {
+      "$value": "8px",
+      "$type": "dimension",
+      "$extensions": {
+        "anydesign": {
+          "source": "design.md frontmatter"
+        }
+      }
+    },
+    "8": {
+      "$value": "8px",
+      "$type": "dimension",
+      "$extensions": {
+        "anydesign": {
+          "source": "design.md frontmatter"
+        }
+      }
+    },
+    "16": {
+      "$value": "16px",
+      "$type": "dimension",
+      "$extensions": {
+        "anydesign": {
+          "source": "design.md frontmatter"
+        }
+      }
+    },
+    "24": {
+      "$value": "24px",
+      "$type": "dimension",
+      "$extensions": {
+        "anydesign": {
+          "source": "design.md frontmatter"
+        }
+      }
+    },
+    "32": {
+      "$value": "32px",
+      "$type": "dimension",
+      "$extensions": {
+        "anydesign": {
+          "source": "design.md frontmatter"
+        }
+      }
+    },
+    "48": {
+      "$value": "48px",
+      "$type": "dimension",
+      "$extensions": {
+        "anydesign": {
+          "source": "design.md frontmatter"
+        }
+      }
+    },
+    "64": {
+      "$value": "64px",
+      "$type": "dimension",
+      "$extensions": {
+        "anydesign": {
+          "source": "design.md frontmatter"
+        }
+      }
+    },
+    "96": {
+      "$value": "96px",
+      "$type": "dimension",
+      "$extensions": {
+        "anydesign": {
+          "source": "design.md frontmatter"
+        }
+      }
+    }
+  },
+  "radius": {
+    "none": {
+      "$value": "0px",
+      "$type": "dimension",
+      "$extensions": {
+        "anydesign": {
+          "source": "design.md frontmatter"
+        }
+      }
+    }
+  },
+  "motion": {
+    "panel": {
+      "$value": "transform 300ms cubic-bezier(0.77,0,0.175,1)",
+      "$type": "duration",
+      "$extensions": {
+        "anydesign": {
+          "source": "design.md frontmatter"
+        }
+      }
+    },
+    "fade": {
+      "$value": "opacity 200ms ease-out",
+      "$type": "duration",
+      "$extensions": {
+        "anydesign": {
+          "source": "design.md frontmatter"
+        }
+      }
+    },
+    "color": {
+      "$value": "color 250ms",
+      "$type": "duration",
+      "$extensions": {
+        "anydesign": {
+          "source": "design.md frontmatter"
+        }
+      }
+    }
+  },
+  "$extensions": {
+    "anydesign": {
+      "source": "https://www.dyrenesbeskyttelse.dk/adopter-et-dyr (live; plus / and one animal page)",
+      "captured_at": "2026-10-08",
+      "method": "generated from design.md by scripts/build_tokens_json.py",
+      "spec": "W3C Design Tokens Community Group 2025.10"
+    }
+  }
+}

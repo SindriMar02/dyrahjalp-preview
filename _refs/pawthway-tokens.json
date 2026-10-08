@@ -1,0 +1,365 @@
+{
+  "color": {
+    "primary": {
+      "$value": "#C8552B",
+      "$type": "color",
+      "$description": "terracotta CTA + hero band",
+      "$extensions": {
+        "anydesign": {
+          "source": "design.md frontmatter",
+          "confidence": "medium"
+        }
+      }
+    },
+    "surface": {
+      "$value": "#F8F4EE",
+      "$type": "color",
+      "$description": "cream page ground",
+      "$extensions": {
+        "anydesign": {
+          "source": "design.md frontmatter",
+          "confidence": "high"
+        }
+      }
+    },
+    "surface-sand": {
+      "$value": "#E8E5DD",
+      "$type": "color",
+      "$description": "sand panel",
+      "$extensions": {
+        "anydesign": {
+          "source": "design.md frontmatter",
+          "confidence": "high"
+        }
+      }
+    },
+    "surface-olive": {
+      "$value": "#6F7A4F",
+      "$type": "color",
+      "$description": "olive closing band",
+      "$extensions": {
+        "anydesign": {
+          "source": "design.md frontmatter",
+          "confidence": "medium"
+        }
+      }
+    },
+    "text-primary": {
+      "$value": "#473022",
+      "$type": "color",
+      "$description": "dark brown ink",
+      "$extensions": {
+        "anydesign": {
+          "source": "design.md frontmatter",
+          "confidence": "high"
+        }
+      }
+    },
+    "text-muted": {
+      "$value": "#867253",
+      "$type": "color",
+      "$description": "brown meta",
+      "$extensions": {
+        "anydesign": {
+          "source": "design.md frontmatter",
+          "confidence": "high"
+        }
+      }
+    },
+    "border": {
+      "$value": "#C5BAA6",
+      "$type": "color",
+      "$description": "hairline between tiles",
+      "$extensions": {
+        "anydesign": {
+          "source": "design.md frontmatter",
+          "confidence": "high"
+        }
+      }
+    }
+  },
+  "typography": {
+    "font-family": {
+      "display": {
+        "$value": "transitional serif with a true italic (unidentified)",
+        "$type": "fontFamily",
+        "$description": "hero \"Every paw deserves a *pathway* home.\"",
+        "$extensions": {
+          "anydesign": {
+            "source": "design.md frontmatter"
+          }
+        }
+      },
+      "heading": {
+        "$value": "same serif",
+        "$type": "fontFamily",
+        "$description": "section leads, olive band",
+        "$extensions": {
+          "anydesign": {
+            "source": "design.md frontmatter"
+          }
+        }
+      },
+      "body": {
+        "$value": "neutral grotesk (unidentified)",
+        "$type": "fontFamily",
+        "$description": "paragraphs, testimonial",
+        "$extensions": {
+          "anydesign": {
+            "source": "design.md frontmatter"
+          }
+        }
+      },
+      "label": {
+        "$value": "neutral grotesk",
+        "$type": "fontFamily",
+        "$description": "eyebrows, nav, stat captions",
+        "$extensions": {
+          "anydesign": {
+            "source": "design.md frontmatter"
+          }
+        }
+      }
+    },
+    "font-size": {
+      "display": {
+        "$value": "56px",
+        "$type": "dimension",
+        "$description": "hero \"Every paw deserves a *pathway* home.\"",
+        "$extensions": {
+          "anydesign": {
+            "source": "design.md frontmatter"
+          }
+        }
+      },
+      "heading": {
+        "$value": "32px",
+        "$type": "dimension",
+        "$description": "section leads, olive band",
+        "$extensions": {
+          "anydesign": {
+            "source": "design.md frontmatter"
+          }
+        }
+      },
+      "body": {
+        "$value": "15px",
+        "$type": "dimension",
+        "$description": "paragraphs, testimonial",
+        "$extensions": {
+          "anydesign": {
+            "source": "design.md frontmatter"
+          }
+        }
+      },
+      "label": {
+        "$value": "12px",
+        "$type": "dimension",
+        "$description": "eyebrows, nav, stat captions",
+        "$extensions": {
+          "anydesign": {
+            "source": "design.md frontmatter"
+          }
+        }
+      }
+    },
+    "font-weight": {
+      "display": {
+        "$value": 400,
+        "$type": "fontWeight",
+        "$description": "hero \"Every paw deserves a *pathway* home.\"",
+        "$extensions": {
+          "anydesign": {
+            "source": "design.md frontmatter"
+          }
+        }
+      },
+      "heading": {
+        "$value": 400,
+        "$type": "fontWeight",
+        "$description": "section leads, olive band",
+        "$extensions": {
+          "anydesign": {
+            "source": "design.md frontmatter"
+          }
+        }
+      },
+      "body": {
+        "$value": 400,
+        "$type": "fontWeight",
+        "$description": "paragraphs, testimonial",
+        "$extensions": {
+          "anydesign": {
+            "source": "design.md frontmatter"
+          }
+        }
+      },
+      "label": {
+        "$value": 500,
+        "$type": "fontWeight",
+        "$description": "eyebrows, nav, stat captions",
+        "$extensions": {
+          "anydesign": {
+            "source": "design.md frontmatter"
+          }
+        }
+      }
+    },
+    "line-height": {
+      "display": {
+        "$value": 1.05,
+        "$type": "number",
+        "$description": "hero \"Every paw deserves a *pathway* home.\"",
+        "$extensions": {
+          "anydesign": {
+            "source": "design.md frontmatter"
+          }
+        }
+      },
+      "heading": {
+        "$value": 1.1,
+        "$type": "number",
+        "$description": "section leads, olive band",
+        "$extensions": {
+          "anydesign": {
+            "source": "design.md frontmatter"
+          }
+        }
+      },
+      "body": {
+        "$value": 1.5,
+        "$type": "number",
+        "$description": "paragraphs, testimonial",
+        "$extensions": {
+          "anydesign": {
+            "source": "design.md frontmatter"
+          }
+        }
+      }
+    },
+    "letter-spacing": {
+      "display": {
+        "$value": "-0.01em",
+        "$type": "dimension",
+        "$description": "hero \"Every paw deserves a *pathway* home.\"",
+        "$extensions": {
+          "anydesign": {
+            "source": "design.md frontmatter"
+          }
+        }
+      },
+      "label": {
+        "$value": "0.04em",
+        "$type": "dimension",
+        "$description": "eyebrows, nav, stat captions",
+        "$extensions": {
+          "anydesign": {
+            "source": "design.md frontmatter"
+          }
+        }
+      }
+    }
+  },
+  "spacing": {
+    "base": {
+      "$value": "8px",
+      "$type": "dimension",
+      "$extensions": {
+        "anydesign": {
+          "source": "design.md frontmatter"
+        }
+      }
+    },
+    "8": {
+      "$value": "8px",
+      "$type": "dimension",
+      "$extensions": {
+        "anydesign": {
+          "source": "design.md frontmatter"
+        }
+      }
+    },
+    "16": {
+      "$value": "16px",
+      "$type": "dimension",
+      "$extensions": {
+        "anydesign": {
+          "source": "design.md frontmatter"
+        }
+      }
+    },
+    "24": {
+      "$value": "24px",
+      "$type": "dimension",
+      "$extensions": {
+        "anydesign": {
+          "source": "design.md frontmatter"
+        }
+      }
+    },
+    "32": {
+      "$value": "32px",
+      "$type": "dimension",
+      "$extensions": {
+        "anydesign": {
+          "source": "design.md frontmatter"
+        }
+      }
+    },
+    "48": {
+      "$value": "48px",
+      "$type": "dimension",
+      "$extensions": {
+        "anydesign": {
+          "source": "design.md frontmatter"
+        }
+      }
+    },
+    "64": {
+      "$value": "64px",
+      "$type": "dimension",
+      "$extensions": {
+        "anydesign": {
+          "source": "design.md frontmatter"
+        }
+      }
+    },
+    "96": {
+      "$value": "96px",
+      "$type": "dimension",
+      "$extensions": {
+        "anydesign": {
+          "source": "design.md frontmatter"
+        }
+      }
+    }
+  },
+  "radius": {
+    "sm": {
+      "$value": "4px",
+      "$type": "dimension",
+      "$extensions": {
+        "anydesign": {
+          "source": "design.md frontmatter"
+        }
+      }
+    },
+    "pill": {
+      "$value": "999px",
+      "$type": "dimension",
+      "$extensions": {
+        "anydesign": {
+          "source": "design.md frontmatter"
+        }
+      }
+    }
+  },
+  "$extensions": {
+    "anydesign": {
+      "source": "Pinterest pin \"Pet Adoption Website Design\" by M Nazmul Islam (concept, not live); screenshot refs/pawthway.jpg",
+      "captured_at": "2026-10-08",
+      "method": "generated from design.md by scripts/build_tokens_json.py",
+      "spec": "W3C Design Tokens Community Group 2025.10"
+    }
+  }
+}
